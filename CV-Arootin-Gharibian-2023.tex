@@ -1,44 +1,48 @@
 \documentclass{resume}
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \usepackage{tikz,xcolor,hyperref}
-
+\usepackage{marvosym}
 \definecolor{lime}{HTML}{A6CE39}
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}
-\newcommand{\tab}[1]{\hspace{0.2667\textwidth}\rlap{#1}} 
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Arootin Gharibian}
 \DeclareRobustCommand{\orcidicon}{
 	\begin{tikzpicture}
 	\draw[lime, fill=lime] (0,0) 
 	circle [radius=0.16] 
-	node[white] {{\fontfamily{qag}\selectfont \tiny ID}};
+	node[white] {{\fontfamily{qag}\selectfont \tiny iD}};
 	\draw[white, fill=white] (-0.0625,0.095) 
 	circle [radius=0.00];
 	\end{tikzpicture}
-	\hspace{2mm}
-}
-\address{\href{https://cz.linkedin.com/in/arootinghn}{LinkedIn} \\ \href{https://github.com/A-Gharibian}{\faGithub}}
-\address{\href{mailto:arootin.gharibian@outlook.com}{arootin.gharibian@outlook.com}\href{https://orcid.org/0000-0001-7819-0842}{\orcidicon}}
+	\hspace{2mm}}
+\newcommand{\tab}[1]{\hspace{0.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Arootin Gharibian}
+\address{\href{mailto:arootin.gharibian@outlook.com}{arootin.gharibian@outlook.com}}
+\address{{\href{https://linkedin.com/in/arootinghn}{\faLinkedin}} \\ {\href{https://github.com/A-Gharibian/}{\faIcon{github-square}}}}
+\address{Ostrava-Poruba, Moravia-Silesia, Czechia}
 
 \begin{document}
 
 \begin{rSection}{SKILLS}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l}
 
-Industry Skills & Medical Writer, Project Manager, Technical documentation, Regulatory Scientist.\\
-Research Skills & Genomics, Flow-cytometry, Data analysis, Clinical research, Literature review.\\
-Tools \& Frameworks & R-studio, Jupyter, Visualization, Scripting.\\
-Programming Languages & R for Statistical programming, Python.
-\end{tabular}\\
-\end{rSection}
+Industry Skills & Regulatory Affairs, Scientific Marketing, Project Management.\\
+Regulatory Knowledge & EU MDR \& EU IVDR, QMS, ISMS, Risk Management.\\
+Research Skills & Clinical Research and  Data Analysis, Systematic Reviews.\\
+Domain Knowledge & Flow-Cytometry, Genomics and Molecular Biology.\\
+Tools \& Frameworks & LMS/DMS, Weka Machine Learning Platform. \\
+Programming Languages & R for Statistical Programming, Scripting \& Visualization.\\
 
+\end{tabular}\\
+
+\end{rSection}
 
 \begin{rSection}{Work History}
 \vspace{-1.25em}
-\item \textbf{Bioinformatics Researcher}, Contract\hfill February 2022 - Present\\
-\href{https://www.vsb.cz/en/university/contacts-maps-parking}{VSB - Technical University of Ostrava} \hfill Ostrava, Czechia
+\item \textbf{Bioinformatics Researcher}, Contract\hfill February 2022 - July 2023\\
+\href{https://www.vsb.cz/en/university/contacts-maps-parking}{VSB - Technical University of Ostrava}{\href{https://orcid.org/0000-0001-7819-0842}{\orcidicon}}\hfill Ostrava, Czechia\\
+
 \item \textbf{Medical Writer,} Pharmacovigilance \hfill August 2022 - December 2022\\
-\textbf{Regulatory Affairs Team Lead,} Medical Devices \hfill May 2020 - August 2022\\
+\textbf{Regulatory Affairs Team Lead,} MDR \hfill May 2020 - August 2022\\
 \href{https://clinchoice.com/contact/}{ClinChoice LLC} \hfill Yerevan, Armenia
 \item \textbf{Application Sales and Scientific Marketing Specialist,} IVD devices \hfill October 2017 - April 2020\\
 \href{https://www.sysmex-europe.com/products/diagnostics/haematology.html}{Advance Medtronic} \hfill Tehran, Iran
@@ -47,43 +51,71 @@ Programming Languages & R for Statistical programming, Python.
 
 \begin{rSection}{EXPERIENCE}
 \vspace{-1.25em}
-\item \textbf{Regulatory affairs and Medical Writing} \hfill \href{https://clinchoice.com/solutions/medical-device-regulatory-affairs/technical-document-submission-approval-preparation/}{ClinChoice LLC}
+\item \textbf{Regulatory Affairs Team Lead, MDR} \hfill \href{https://clinchoice.com/solutions/medical-device-regulatory-affairs/technical-document-submission-approval-preparation/}{ClinChoice LLC}
+\begin{itemize}
+    \itemsep -3pt {}
+    \item Coordination of the project with relevant cross functional teams.
+    \item Preparation of TD for submission for EU MDR certification for Class III medical devices, including combinations.
+    \item ISO-13485, ISO 27701 compliance consultant and procedure writer.
+    \item LMS/DMS.
+ \end{itemize}
+
+\item \textbf{Pharmacovigilance Medical Writing} \hfill \href{https://clinchoice.com/solutions/medical-device-regulatory-affairs/technical-document-submission-approval-preparation/}{ClinChoice LLC}
 \begin{itemize}
     \itemsep -3pt {}
     \item Preparation of Ad-hoc systematic reviews for compliance with regulatory authorities.
-     \item Preparation of DOC, GSPR and Technical documentation for EU MDR certification for Class III medical devices, including combinations and biologics.
-     \item ISO-13485, ISO 27701 compliance consultant.
+    \item 
+    \item
+    \item
  \end{itemize}
-
+ 
 \item \textbf{Application Sales and Scientific Marketing} \hfill {\href{https://www.sysmex-europe.com/products/diagnostics/haemostasis.html}{Advance Medtronic}}
 \begin{itemize}
     \itemsep -3pt {} 
-     \item Application specialist for Sysmex haemostasis and haematology IVD Devices.
-     \item Scientific marketing and training end users.
-     \item Post-market quality review, sales trend analysis.
-     \item Support laboratories in optimization of testing portfolio.
+     \item Application specialist for haemostasis and haematology IVD Devices.
+     \item Scientific marketing activities, including sales trend and competition data analysis.
+     \item Post-market quality review and adverse event reporting.
+     \item Management of process adaption and methodology transition,
+     \item Making available new testing protocols based on national requirements,
+     \item Supporting regulatory affairs and quality assurance roles.
  \end{itemize}
-\item \textbf{Research Associate} \hfill \href{http://www.nigeb.ac.ir/web/en}{National Institute of Genetic Engineering and Biotechnology}
+
+\end{rSection}
+
+\begin{rSection}{Research experience}
+\item \textbf{Research Scientist} \hfill \href{https://www.vsb.cz/en/university/contacts-maps-parking}{VSB - Technical University of Ostrava}
 \begin{itemize}
     \itemsep -3pt {} 
-     \item Topic: Early Detection of Breast Cancer using plasma cfDNA methylation pattern.
-     \item Data Analysis, Medical writing.
+     \item Implementation of ML algorithm for movement detection of \textit{in-Vitro} migratory cells 
+     \item Clinical Data Analysis, Data Clustering, Data Mining.
  \end{itemize}
-\end{rSection} 
-
+ 
+\item \textbf{Research Associate} \hfill \href{http://www.nigeb.ac.ir/web/en}{NIGEB}
+\begin{itemize}
+    \itemsep -3pt {} 
+     \item Project: Early Detection of Breast Cancer using plasma cfDNA methylation pattern.
+     \item Data Analysis, \href{https://ccij-online.org/article/serum-plasma-dna-methylation-pattern-and-early-detection-of-breast-cancer-336}{Literature Review}.
+ \end{itemize}
+\end{rSection}
 
 \begin{rSection}{Education}
 
 {\href{https://science.ut.ac.ir/en/web/biology}{University of Tehran}}\\
 {\bf Master of Science; Biology, Cellular and Molecular Sciences} \hfill {Sep. 2011 -- Sep. 2014}\\
- Thesis Title: A study on the role of LTBP-1 in human trabecular meshwork cells \hfill {\textit{CGPA} : \textsl{87 \%}}\\
+ Thesis Title: A study on the role of LTBP-1 in human trabecular meshwork cells\\
+ (Official statement of comparability and recognition available from \href{https://www.upol.cz/en/}{Palacký University, Olomouc, Czech Republic}).\\
  
 {\bf Bachelor of Science; Biology, Cellular and Molecular Sciences} \hfill {Sep. 2006 - Sep. 2010}\\
- Thesis Title: Genetic delimitation of \href{https://onlinelibrary.wiley.com/doi/abs/10.1111/boj.12015}{\textit{Amaranthaceae and Chenopodiaceae}} populations \hfill {\textit{CGPA} : \textsl{80 \%}}
+ Thesis Title: Genetic delimitation of \href{https://onlinelibrary.wiley.com/doi/abs/10.1111/boj.12015}{\textit{Amaranthaceae and Chenopodiaceae}} populations
  
 \end{rSection}
 
-\begin{rSection}{Extra-Curricular Activities} 
+\begin{rSection}{Awards}
+Google \href{https://source.android.com/docs/security/overview/acknowledgements#may-2022}{Android Security} Award \hfill May 2022\\
+For description of a \href {https://source.android.com/docs/security/bulletin/2022-05-01}{High Severity Security Vulnerability} affecting Android 10, 11, 12, 12L.
+\end{rSection}
+
+\begin{rSection}{Relevant Extra-Curricular Activities} 
 
     Birthright Armenia Volunteer program, \hfill Dec. 2019\\
    Institute of Molecular Biology, BioInformatics Group.\hfill Yerevan, Armenia.
