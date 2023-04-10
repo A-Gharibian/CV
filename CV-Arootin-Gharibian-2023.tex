@@ -1,124 +1,141 @@
 \documentclass{resume}
 \usepackage{fontawesome5}
+\usepackage{ccicons}
 \usepackage{tikz,xcolor,hyperref}
 \usepackage{marvosym}
 \definecolor{lime}{HTML}{A6CE39}
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}
-\DeclareRobustCommand{\orcidicon}{
-	\begin{tikzpicture}
-	\draw[lime, fill=lime] (0,0) 
-	circle [radius=0.16] 
-	node[white] {{\fontfamily{qag}\selectfont \tiny iD}};
-	\draw[white, fill=white] (-0.0625,0.095) 
-	circle [radius=0.00];
-	\end{tikzpicture}
-	\hspace{2mm}}
-\newcommand{\tab}[1]{\hspace{0.2667\textwidth}\rlap{#1}} 
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{mwe}
+\newcommand{\tab}[1]{\hspace{0.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Arootin Gharibian}
-\address{\href{mailto:arootin.gharibian@outlook.com}{arootin.gharibian@outlook.com}}
-\address{{\href{https://linkedin.com/in/arootinghn}{\faLinkedin}} \\ {\href{https://github.com/A-Gharibian/}{\faIcon{github-square}}}}
 \address{Ostrava-Poruba, Moravia-Silesia, Czechia}
 
 \begin{document}
-
 \begin{rSection}{SKILLS}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l}
+\vspace{-0.11em}
+\setstretch{1.22}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{8ex}} l}
 
-Industry Skills & Regulatory Affairs, Scientific Marketing, Project Management.\\
-Regulatory Knowledge & EU MDR \& EU IVDR, QMS, ISMS, Risk Management.\\
-Research Skills & Clinical Research and  Data Analysis, Systematic Reviews.\\
+Industry Skills &   Regulatory Affairs, Scientific Marketing, In Vitro Diagnostics.\\
+Research Skills & Clinical Research and Data Analysis, Systematic Reviews.\\
+Regulatory Knowledge & EU-MDR \& EU-IVDR, QMS, ISMS, Risk Management.\\
 Domain Knowledge & Flow-Cytometry, Genomics and Molecular Biology.\\
-Tools \& Frameworks & LMS/DMS, Weka Machine Learning Platform. \\
-Programming Languages & R for Statistical Programming, Scripting \& Visualization.\\
+Tools \& Frameworks & LMS/DMS, Weka ML \& Visualization Platform. \\
+Programming Languages & R For Statistical Programming, Scripting.
 
 \end{tabular}\\
 
 \end{rSection}
-
 \begin{rSection}{Work History}
-\vspace{-1.25em}
-\item \textbf{Bioinformatics Researcher}, Contract\hfill February 2022 - July 2023\\
-\href{https://www.vsb.cz/en/university/contacts-maps-parking}{VSB - Technical University of Ostrava}{\href{https://orcid.org/0000-0001-7819-0842}{\orcidicon}}\hfill Ostrava, Czechia\\
-
+\vspace{-1em}
+\setstretch{1.22}
+\item \textbf{Researcher, }Computational Biology \hfill February 2022 - June 2023\\
+\href{https://www.fei.vsb.cz/en/research/research-groups/?id=19}{VSB - Technical University of Ostrava}\hfill Ostrava, Czechia
 \item \textbf{Medical Writer,} Pharmacovigilance \hfill August 2022 - December 2022\\
 \textbf{Regulatory Affairs Team Lead,} MDR \hfill May 2020 - August 2022\\
-\href{https://clinchoice.com/contact/}{ClinChoice LLC} \hfill Yerevan, Armenia
+\href{https://clinchoice.com/about}{ClinChoice LLC} \hfill Yerevan, Armenia
 \item \textbf{Application Sales and Scientific Marketing Specialist,} IVD devices \hfill October 2017 - April 2020\\
-\href{https://www.sysmex-europe.com/products/diagnostics/haematology.html}{Advance Medtronic} \hfill Tehran, Iran
+\href{https://www.sysmex-europe.com/company/contacts/distributors.html}{Electronic Pezeshki Pishrafteh Co. Ltd.} \hfill Tehran, Iran
 
 \end{rSection}
 
 \begin{rSection}{EXPERIENCE}
-\vspace{-1.25em}
-\item \textbf{Regulatory Affairs Team Lead, MDR} \hfill \href{https://clinchoice.com/solutions/medical-device-regulatory-affairs/technical-document-submission-approval-preparation/}{ClinChoice LLC}
+\vspace{-1em}
+\setstretch{1.11}
+\item \textbf{Regulatory Affairs Team Lead, MDR} \hfill {ClinChoice LLC}
 \begin{itemize}
-    \itemsep -3pt {}
-    \item Coordination of the project with relevant cross functional teams.
-    \item Preparation of TD for submission for EU MDR certification for Class III medical devices, including combinations.
-    \item ISO-13485, ISO 27701 compliance consultant and procedure writer.
-    \item LMS/DMS.
+    \itemsep -2.22pt {}
+    \item Coordinated MDR TD submission project in a cross-functional team. \hfill {\tiny{\href{https://clinchoice.com/solutions/medical-device-regulatory-affairs/technical-document-submission-approval-preparation}{\faIcon
+{external-link-alt}}}}
+    \item Supervised TD compilation for MDR recertification submissions to a Notified Body:\\
+         50 Class II \& III medical devices, and 2 combination products submitted in 18 months.
+    \item Established the control process for continuous compliance of TDs with respect to EU-MDR.
+    \item Defined correct procedure development strategies for ISO-13485 \& ISO-27701, including:\\
+          Training plan, RARTPs, Standard Operating Procedures.
+    \item Represented the Medical devices Regulatory Affairs team on RFP meetings.
+    \item Prepared and conducted training related to medical device regulations.
+    \item Provided consultation for regulatory requirements of EU-MDR.
  \end{itemize}
 
-\item \textbf{Pharmacovigilance Medical Writing} \hfill \href{https://clinchoice.com/solutions/medical-device-regulatory-affairs/technical-document-submission-approval-preparation/}{ClinChoice LLC}
+\item \textbf{Pharmacovigilance Medical Writer} \hfill {ClinChoice LLC}
 \begin{itemize}
-    \itemsep -3pt {}
-    \item Preparation of Ad-hoc systematic reviews for compliance with regulatory authorities.
-    \item 
-    \item
-    \item
+    \itemsep -2.22pt {}
+    \item Developed high-level search strategy with Surveillance Physician and Medical Librarians. \hfill {\tiny {\href{https://clinchoice.com/solutions/medical-device-safety/literature-monitoring/}{\faIcon
+{external-link-alt}}}}
+    \item Prepared Ad-hoc systematic reviews for submission to regulatory authorities.
+    \item Performed routine literature searches and identified/analyzed relevant publications.
+    \item Performed Ad-hoc comprehensive Literature Review for designated safety signal.
+    \item Developed key timelines for medical writing production and delivery.\newpage
  \end{itemize}
- 
-\item \textbf{Application Sales and Scientific Marketing} \hfill {\href{https://www.sysmex-europe.com/products/diagnostics/haemostasis.html}{Advance Medtronic}}
+
+\item \textbf{Application Sales and Scientific Marketing} \hfill {\href{https://www.sysmex-europe.com/company/contacts/distributors.html}{Electronic Pezeshki Pishrafteh Co. Ltd.}}
 \begin{itemize}
-    \itemsep -3pt {} 
-     \item Application specialist for haemostasis and haematology IVD Devices.
-     \item Scientific marketing activities, including sales trend and competition data analysis.
+    \itemsep -2.22pt {} 
+     \item Executed scientific marketing activities, including:\\
+            Sales trend and competition data analysis, 
+     \item application haemostasis and haematology IVD Devices.
      \item Post-market quality review and adverse event reporting.
      \item Management of process adaption and methodology transition,
      \item Making available new testing protocols based on national requirements,
      \item Supporting regulatory affairs and quality assurance roles.
- \end{itemize}
-
+\end{itemize}
 \end{rSection}
 
-\begin{rSection}{Research experience}
+\begin{rSection}{Research Experience}
+\vspace{-1em}
+\setstretch{1.11}
 \item \textbf{Research Scientist} \hfill \href{https://www.vsb.cz/en/university/contacts-maps-parking}{VSB - Technical University of Ostrava}
-\begin{itemize}
-    \itemsep -3pt {} 
-     \item Implementation of ML algorithm for movement detection of \textit{in-Vitro} migratory cells 
-     \item Clinical Data Analysis, Data Clustering, Data Mining.
- \end{itemize}
+    \begin{itemize}
+        \itemsep -2.22pt {} 
+         \item Implementation of ML algorithm for movement detection of \textit{in-Vitro} migratory cells 
+         \item Clinical Data Analysis, Data Mining with supervised learning and association networks.
+    \end{itemize}
  
 \item \textbf{Research Associate} \hfill \href{http://www.nigeb.ac.ir/web/en}{NIGEB}
-\begin{itemize}
-    \itemsep -3pt {} 
-     \item Project: Early Detection of Breast Cancer using plasma cfDNA methylation pattern.
-     \item Data Analysis, \href{https://ccij-online.org/article/serum-plasma-dna-methylation-pattern-and-early-detection-of-breast-cancer-336}{Literature Review}.
- \end{itemize}
+    \begin{itemize}
+        \itemsep -2.22pt {} 
+         \item Project: Early Detection of Breast Cancer using plasma cfDNA methylation pattern.
+         \item Data Analysis, \href{https://ccij-online.org/article/serum-plasma-dna-methylation-pattern-and-early-detection-of-breast-cancer-336}{Literature Review}.
+    \end{itemize}
 \end{rSection}
 
 \begin{rSection}{Education}
+\setstretch{1.11}
+\textbf{Cellular and Molecular Biology}\hfill {\href{https://science.ut.ac.ir/en/web/biology}{University of Tehran}}
 
-{\href{https://science.ut.ac.ir/en/web/biology}{University of Tehran}}\\
-{\bf Master of Science; Biology, Cellular and Molecular Sciences} \hfill {Sep. 2011 -- Sep. 2014}\\
- Thesis Title: A study on the role of LTBP-1 in human trabecular meshwork cells\\
- (Official statement of comparability and recognition available from \href{https://www.upol.cz/en/}{Palacký University, Olomouc, Czech Republic}).\\
+{\bf Master of Science; \let\thefootnote\relax\footnote{* Official statement of comparability to EU equivalent degree available, issued by \href{https://www.upol.cz/en/}{Palacký University, Olomouc, Czech Republic}.}}\hfill {Sep. 2011 -- Sep. 2014}\\
+ Thesis Title: A study on the role of LTBP-1 in human trabecular meshwork cells.
  
-{\bf Bachelor of Science; Biology, Cellular and Molecular Sciences} \hfill {Sep. 2006 - Sep. 2010}\\
- Thesis Title: Genetic delimitation of \href{https://onlinelibrary.wiley.com/doi/abs/10.1111/boj.12015}{\textit{Amaranthaceae and Chenopodiaceae}} populations
+{\bf Bachelor of Science;} \hfill {Sep. 2006 - Sep. 2010}\\
+ Thesis Title: Genetic delimitation of \href{https://onlinelibrary.wiley.com/doi/abs/10.1111/boj.12015}{\textit{Amaranthaceae} and \textit{Chenopodiaceae}} populations.
  
+\end{rSection}
+
+\begin{rSection}{Training}
+\setstretch{1.11}
+    \begin{itemize}
+        \itemsep -2.22pt {}
+         \item MDR regulatory affairs comprehensive training: \hfill May 2020\\
+         Technical Documentation, NB submission, GDP, GMP, GDPR.
+         \item Pharmacovigilance medical writing: \hfill August 2022\\
+         Regulatory Systematic Review Writing, AMA Manual of Style, GVP
+    \end{itemize}
 \end{rSection}
 
 \begin{rSection}{Awards}
-Google \href{https://source.android.com/docs/security/overview/acknowledgements#may-2022}{Android Security} Award \hfill May 2022\\
-For description of a \href {https://source.android.com/docs/security/bulletin/2022-05-01}{High Severity Security Vulnerability} affecting Android 10, 11, 12, 12L.
+\setstretch{1.11}
+Google Android Security Award \hfill May 2022\\
+For characterization of a High Severity Security Vulnerability affecting Android 10, 11, 12, 12L.
 \end{rSection}
 
 \begin{rSection}{Relevant Extra-Curricular Activities} 
-
+\setstretch{1.11}
     Birthright Armenia Volunteer program, \hfill Dec. 2019\\
-   Institute of Molecular Biology, BioInformatics Group.\hfill Yerevan, Armenia.
+    Institute of Molecular Biology, Bio-Informatics Group.\hfill Yerevan, Armenia.\\
+
 
 \end{rSection}
 
