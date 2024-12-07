@@ -130,9 +130,9 @@
   \end{list}
   \vspace{0.5em} % Some space after the list of bullet points
 }
+
 % ORCID icon
 
-\definecolor{lime}{HTML}{A6CE39}
 \DeclareRobustCommand{\orcidicon}{
 	\begin{tikzpicture}
 	\draw[lime, fill=lime] (0,0) 
