@@ -1,6 +1,12 @@
+# Anonymized CV in LaTeX
+
 This repository contains an anonymized version of my CV, formatted using LaTeX.
 
+## Resume Template
+
 The Resume template is copyrighted as follows:
+
+##
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Medium Length Professional CV - RESUME CLASS FILE
 %
