@@ -1,4 +1,4 @@
-# Anonymized CV in LaTeX
+# Redacted CV in LaTeX
 
 This repository contains a redacted version of my CV, formatted using LaTeX.
 
