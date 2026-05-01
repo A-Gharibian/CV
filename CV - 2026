@@ -1,0 +1,91 @@
+\documentclass{resume}
+\usepackage{fontawesome5}
+\usepackage{tikz,xcolor,hyperref}
+\usepackage{marvosym}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{mwe}
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    pdftitle={CV-A-Gharibian-2024},
+    bookmarksopen=false,
+    pdfauthor= Arootin Gharibian
+}
+
+\definecolor{lime}{HTML}{A6CE39}
+
+\newcommand{\tab}[1]{\hspace{0.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Arootin Gharibian}
+\address{\texttt{ {\href{https://linkedin.com/in/arootinghn}{\faLinkedin}} arootinghn {\href{https://github.com/A-Gharibian}{\faIcon{github}} A-Gharibian}}}
+\begin{document}
+
+\centering{Real-World Data Analyst \& Regulatory Lead\\ Enabling Regulatory Decisions through Clinical Data Science}\\
+\vspace{0.11cm}
+\begin{rSection}{SKILLS}
+\vspace{-0.11em}
+\setstretch{1.25}
+\begin{tabular}{@{} >{\bfseries}l @{\hspace{15ex}} l}
+
+Tech Stack &  Python, R, Data Versioning, Pipeline Reproducibility.\\
+Industry Skills & RWD Analytics, In-Vitro Diagnostics, Regulatory Affairs.\\
+Research Skills &  Computational Biology, Molecular Biology, Network Graphs.\\
+Regulatory Knowledge & MDR/IVDR, GDPR, QMS, ISMS, Data Stewardship.
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Work Experience}
+\vspace{-0.5em}
+\setstretch{1.25}
+\item \textbf{Researcher}, Computational Biology\\
+\href{https://www.fei.vsb.cz/en/research/research-groups/?id=19}{V\v{S}B - Technical University of Ostrava}\hfill (Part time) January 2023 -- June 2026\\
+\textit{Ostrava, Czech Republic}\hfill (Full time) February 2022 -- December 2023
+    \begin{itemize}
+        \itemsep -2.22pt {}
+                 \item Developed RWD analysis frameworks translating cluster discovery into clinical applicability and implemented \href{https://doi.org/10.1093/pnasnexus/pgaf355}{image analysis} and \href{https://doi.org/10.1007/s41109-025-00741-8}{community detection algorithms} for RWD analysis.
+    \end{itemize}
+
+\item \textbf{Researcher}, Bioinformatics and Clinical Flow-Cytometry\\
+\href{https://www.upol.cz}{Univerzita Palackého v Olomouci}\hfill (Part time) June 2023 -- December 2025\\
+\textit{Olomouc, Czech Republic}\hfill (Part time) March 2022 -- May 2023
+    \begin{itemize}
+        \item Engineered \href{https://doi.org/10.1007/978-3-031-40971-4_41}{clinical data analysis pipeline} for \href{https://doi.org/10.1016/j.celrep.2025.115859}{exploratory RWD mining}.
+    \end{itemize}
+    
+\vspace{0.22cm}
+
+\item \textbf{Medical Writer}, Pharmacovigilance \hfill (Full time) August 2022 -- December 2022\\
+\textbf{Regulatory Affairs Team Lead,} MDR \hfill (Full time) May 2020 -- August 2022\\
+\href{https://clinchoice.com/about}{ClinChoice LLC.}\\
+\begin{itemize}
+    \itemsep -2.25pt {}
+    \item Collaborated with surveillance physicians and medical librarians to compile regulatory literature reviews.
+    \item Led a cross-functional team for transition of Technical Documentation from MDD to MDR. Submitted 52 Class II/III medical devices and combination products.
+    \item Established control processes and authored ISO 13485-compliant SOPs, training materials, and risk management plans to ensure continuous lifecycle compliance with EU-MDR transition.
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{Education}
+\vspace{0.11em}
+\setstretch{1.25}
+\textbf{Computational Biology} \hfill{\textit{V\v{S}B - Technical University of Ostrava}}\\
+{\bf PhD Candidate (ABD)}; \hfill {September 2021 -- October 2026 (Expected)}\\
+Thesis Topic: Analysis of Feature-Class-Cluster Relationship in Real-World Biomedical Datasets.
+
+\textbf{Cell and Molecular Biology}\hfill{\textit{University of Tehran}}\\
+\textbf{Bachelor of Science, Master of Science};\texttt{$^{*}$} \hfill {2006 -- 2014}\\
+Thesis Title: A study on the role of LTBP-1 in human trabecular meshwork cells.
+
+\end{rSection}
+
+
+%\noindent\makebox[\linewidth]{\rule{0.66\paperwidth}{0.44pt}}
+
+\end{document}
