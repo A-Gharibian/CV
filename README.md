@@ -1,6 +1,6 @@
 # Anonymized CV in LaTeX
 
-This repository contains an anonymized version of my CV, formatted using LaTeX.
+This repository contains a redacted version of my CV, formatted using LaTeX.
 
 ## Resume Template
 
@@ -21,3 +21,4 @@ notice and this notice are preserved. This file is offered as-is,
 without any warranty.
 
 Created by Trey Hunner and modified by www.LaTeXTemplates.com
+***
